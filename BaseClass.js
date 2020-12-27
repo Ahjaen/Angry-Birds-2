@@ -9,7 +9,7 @@ class BaseClass {
       this.width = width;
       this.height = height;
       World.add(world, this.body);
-      this.image = loadImage("sprites/base.png");
+      this.image = loadImage("base.png");
     };
     display(){
       var pos = this.body.position;
